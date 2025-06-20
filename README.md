@@ -7,7 +7,6 @@ Este proyecto es una API RESTful desarrollada en Laravel para la gestión de usu
 -   PHP >= 8.2
 -   Composer
 -   MySQL o cualquier base de datos compatible
--   Node.js y NPM (opcional si se usa frontend)
 
 ## ⚙️ Instalación
 
@@ -103,7 +102,7 @@ Todos los endpoints están prefijados con `/api`.
 
 ### 📊 Top 3 dominios de email
 
--   **GET** `/api/users/top-domains`
+-   **GET** `/api/top-domains`
 -   Requiere autenticación
 -   Devuelve los tres dominios de email más frecuentes entre los usuarios en orden descendente.
 

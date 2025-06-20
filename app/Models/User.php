@@ -64,6 +64,9 @@ class User extends Authenticatable {
             ->pluck('total', 'domain');
     }
 
+    /**
+    * Genera y devuelve un token de acceso para el usuario.
+    */
     public function generateToken(): string
     {
         return $this->createToken('api-token')->plainTextToken;
