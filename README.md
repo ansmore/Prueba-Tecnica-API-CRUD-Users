@@ -14,7 +14,7 @@ Este proyecto es una API RESTful desarrollada en Laravel para la gestión de usu
 
     ```bash
     git clone https://github.com/ansmore/Prueba-Tecnica-API-CRUD-Users.git
-    cd crud-usuarios
+    cd Prueba-Tecnica-API-CRUD-Users
     ```
 
 2. Instala las dependencias:
