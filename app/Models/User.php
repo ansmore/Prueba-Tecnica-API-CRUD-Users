@@ -63,4 +63,9 @@ class User extends Authenticatable {
             ->limit(3)
             ->pluck('total', 'domain');
     }
+
+    public function generateToken(): string
+    {
+        return $this->createToken('api-token')->plainTextToken;
+    }
 }

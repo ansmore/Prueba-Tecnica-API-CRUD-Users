@@ -14,7 +14,7 @@ Este proyecto es una API RESTful desarrollada en Laravel para la gestión de usu
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/usuario/crud-usuarios.git
+    git clone https://github.com/ansmore/Prueba-Tecnica-API-CRUD-Users.git
     cd crud-usuarios
     ```
 
@@ -71,9 +71,9 @@ Todos los endpoints están prefijados con `/api`.
 
     ```json
     {
-        "name": "Juan",
-        "email": "juan@example.com",
-        "password": "secreto123"
+        "name": "name",
+        "email": "email",
+        "password": "password"
     }
     ```
 
@@ -90,9 +90,9 @@ Todos los endpoints están prefijados con `/api`.
 
     ```json
     {
-        "name": "Juan Actualizado",
-        "email": "nuevo@example.com",
-        "password": "nuevo123"
+        "name": "name",
+        "email": "email",
+        "password": "password"
     }
     ```
 
@@ -118,10 +118,10 @@ Esta API utiliza [Laravel Sanctum](https://laravel.com/docs/sanctum) para autent
 
     ```json
     {
-        "name": "Juan",
-        "email": "juan@example.com",
-        "password": "secreto123",
-        "password_confirmation": "secreto123"
+        "name": "name",
+        "email": "email",
+        "password": "password",
+        "password_confirmation": "password_confirmation"
     }
     ```
 
@@ -129,7 +129,7 @@ Esta API utiliza [Laravel Sanctum](https://laravel.com/docs/sanctum) para autent
 
     ```json
     {
-        "token": "2|abcd...tu_token"
+        "token": "tu_token"
     }
     ```
 
@@ -140,8 +140,8 @@ Esta API utiliza [Laravel Sanctum](https://laravel.com/docs/sanctum) para autent
 
     ```json
     {
-        "email": "juan@example.com",
-        "password": "secreto123"
+        "email": "email",
+        "password": "password"
     }
     ```
 
@@ -149,7 +149,7 @@ Esta API utiliza [Laravel Sanctum](https://laravel.com/docs/sanctum) para autent
 
     ```json
     {
-        "token": "2|abcd...tu_token"
+        "token": "tu_token"
     }
     ```
 
